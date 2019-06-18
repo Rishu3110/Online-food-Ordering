@@ -1,0 +1,21 @@
+
+<html>
+<?php
+
+$con=mysql_connect("localhost","root","");
+if(!$con)
+{
+die('could not connect'.mysql_error());
+}
+mysql_select_db("hotel",$con);
+$sql="insert into dishes(dname,type,did,cost)values('$_POST[d2]','$_POST[d3]','$_POST[d1]','$_POST[d4]')");
+if($con->query($sql)===true)
+{
+echo"done";
+}
+else{
+echo"error";
+}
+$con->close()
+?>
+</html>

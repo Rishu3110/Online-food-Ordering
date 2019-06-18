@@ -1,0 +1,123 @@
+.fname{
+height:150px;
+color:white;
+font-family: AR decode;
+font-size:100px; 
+
+}
+.bb{
+background-size:cover;
+background-image :url("m4.jpeg");
+}
+.im
+{
+height:60px;
+}
+.maincont
+{
+height:80%;
+width:85%;
+
+
+margin-top:30px;
+margin-left:100px;
+margin-right:100px;
+margin-bottom:500px;
+}
+.navigation
+{
+border-radius: 50px 50px 50px 50px;
+width:98%;
+height:10%;
+margin-top:10px;
+margin-left:10px;
+
+background-image:url("m2.jpeg");
+backgound-size:cover;
+}
+.butn
+{
+padding:10px;
+color:black;
+font-family: Arial;
+font-size:20px;
+float:left;
+margin-left:50px;
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.dropdown {
+padding:10px;
+    position: relative;
+    display: inline-block;
+	font-family: Arial;
+font-size:20px;
+float:left;
+margin-left:50px;
+color:white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+	font-size:20px;
+   background-image:url("m1.jpeg");
+    min-width: 160px;
+	min-height: 200px;
+    color:white;
+    padding: 12px 16px ;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.foot{
+height:20px;
+width:100%;
+
+
+color:sky blue;
+font-family:ar berkley;
+}
+
+
+.glow {
+  
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+     text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px red, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+
+
